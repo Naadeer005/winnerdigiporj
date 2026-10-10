@@ -1,0 +1,8 @@
+build/
+quartus/db/
+quartus/incremental_db/
+quartus/output_files/
+quartus/*.qws
+*.ghw
+*.vcd
+__pycache__/

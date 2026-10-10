@@ -1,0 +1,90 @@
+rtl/controls.vhd:18:13:warning: unhandled attribute "altera_attribute" [-Wunhandled-attribute]
+  attribute altera_attribute of sync_meta, sync_clean : signal is "-name SYNCHRONIZER_IDENTIFICATION FORCED_IF_ASYNCHRONOUS";
+            ^
+rtl/controls.vhd:18:13:warning: unhandled attribute "altera_attribute" [-Wunhandled-attribute]
+  attribute altera_attribute of sync_meta, sync_clean : signal is "-name SYNCHRONIZER_IDENTIFICATION FORCED_IF_ASYNCHRONOUS";
+            ^
+rtl/game_pkg.vhd:23:12:note: found ROM "n4083", width: 12 bits, depth: 17
+  constant VX : velocity_t := (-1381,-1273,-1141,-987,-814,-625,-423,-214,0,214,423,625,814,987,1141,1273,1381);
+           ^
+rtl/game_pkg.vhd:24:12:note: found ROM "n4088", width: 12 bits, depth: 17
+  constant VY : velocity_t := (-673,-859,-1028,-1177,-1303,-1403,-1477,-1521,-1536,-1521,-1477,-1403,-1303,-1177,-1028,-859,-673);
+           ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n22573", width: 8 bits, depth: 8
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n22790", width: 8 bits, depth: 15
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n23007", width: 8 bits, depth: 5
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n24392", width: 8 bits, depth: 10
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n24859", width: 8 bits, depth: 5
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n25076", width: 8 bits, depth: 8
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n25391", width: 8 bits, depth: 8
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n25606", width: 8 bits, depth: 8
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n25824", width: 8 bits, depth: 9
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n26039", width: 8 bits, depth: 9
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n26257", width: 8 bits, depth: 50
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:97:12:note: found ROM "n26462", width: 8 bits, depth: 480
+  constant DINO : sprite_t := (
+           ^
+rtl/graphics_pkg.vhd:121:15:note: internal width 24 of memory is not a power of 2
+    case DINO(y)(x+1) is
+              ^
+rtl/graphics_pkg.vhd:121:15:note: internal width 24 of memory is not a power of 2
+    case DINO(y)(x+1) is
+              ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n26597", width: 8 bits, depth: 13
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/game_pkg.vhd:23:12:note: found ROM "n27197", width: 12 bits, depth: 17
+  constant VX : velocity_t := (-1381,-1273,-1141,-987,-814,-625,-423,-214,0,214,423,625,814,987,1141,1273,1381);
+           ^
+rtl/game_pkg.vhd:24:12:note: found ROM "n27211", width: 12 bits, depth: 17
+  constant VY : velocity_t := (-673,-859,-1028,-1177,-1303,-1403,-1477,-1521,-1536,-1521,-1477,-1403,-1303,-1177,-1028,-859,-673);
+           ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n28138", width: 8 bits, depth: 8
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n28355", width: 8 bits, depth: 24
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n28574", width: 8 bits, depth: 7
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n28791", width: 8 bits, depth: 16
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n29008", width: 8 bits, depth: 9
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n29225", width: 8 bits, depth: 22
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n29444", width: 8 bits, depth: 22
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n29661", width: 8 bits, depth: 24
+    bits:=glyph(message(message'low+index));
+                       ^
+rtl/graphics_pkg.vhd:64:24:note: found ROM "n29878", width: 8 bits, depth: 24
+    bits:=glyph(message(message'low+index));
+                       ^

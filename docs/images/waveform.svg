@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<rect width="1200" height="420" fill="#111827"/>
+<style>text{font-family:monospace;fill:#cbd5e1;font-size:13px}.title{font-size:19px;fill:#d9f99d}</style>
+<text x="24" y="30" class="title">Dino Pop — match, score and disconnected-egg fall</text>
+<text x="24" y="54">GHDL simulation / synthetic frame ticks / fixture-driven regression</text>
+<path d="M230.3,76 V355" stroke="#334155"/>
+<text x="218.3" y="378">60</text>
+<path d="M399.3,76 V355" stroke="#334155"/>
+<text x="387.3" y="378">80</text>
+<path d="M568.4,76 V355" stroke="#334155"/>
+<text x="556.4" y="378">100</text>
+<path d="M737.4,76 V355" stroke="#334155"/>
+<text x="725.4" y="378">120</text>
+<path d="M906.4,76 V355" stroke="#334155"/>
+<text x="894.4" y="378">140</text>
+<path d="M1075.5,76 V355" stroke="#334155"/>
+<text x="1063.5" y="378">160</text>
+<text x="16" y="114">FSM state</text>
+<text x="16" y="133" fill="#64748b">range 0–11</text>
+<path d="M150.00,121.64 H150.42 V94.00 H150.59 V118.18 H153.97 V114.73 H174.43 V111.27 H197.92 V107.82 H1107.85 V104.36 H1128.47 V100.91 H1148.93 V128.55 H1149.10 V118.18 H1152.48 V114.73 H1160.00 V114.73" fill="none" stroke="#67e8f9" stroke-width="2"/>
+<text x="201.9" y="100.8">7</text>
+<text x="16" y="186">Score</text>
+<text x="16" y="205" fill="#64748b">range 0–99999</text>
+<path d="M150.00,204.00 H154.14 V204.00 H154.31 V203.99 H155.83 V203.99 H181.02 V203.98 H1149.10 V166.01 H1152.65 V166.00 H1152.82 V166.00 H1160.00 V166.00" fill="none" stroke="#67e8f9" stroke-width="2"/>
+<text x="185.0" y="197.0">50</text>
+<text x="16" y="258">Fall offset / px</text>
+<text x="16" y="277" fill="#64748b">range 0–480</text>
+<path d="M150.00,276.00 H215.33 V275.05 H237.65 V274.10 H259.96 V273.15 H282.27 V272.20 H304.58 V271.25 H326.90 V270.30 H349.21 V269.35 H371.52 V268.40 H393.84 V267.45 H416.15 V266.50 H438.46 V265.55 H460.78 V264.60 H483.09 V263.65 H505.40 V262.70 H527.71 V261.75 H550.03 V260.80 H572.34 V259.85 H594.65 V258.90 H616.97 V257.95 H639.28 V257.00 H661.59 V256.05 H683.91 V255.10 H706.22 V254.15 H728.53 V253.20 H750.84 V252.25 H773.16 V251.30 H795.47 V250.35 H817.78 V249.40 H840.10 V248.45 H862.41 V247.50 H884.72 V246.55 H907.04 V245.60 H929.35 V244.65 H951.66 V243.70 H973.97 V242.75 H996.29 V241.80 H1018.60 V240.85 H1040.91 V239.90 H1063.23 V238.95 H1085.54 V238.00 H1149.10 V276.00 H1160.00 V276.00" fill="none" stroke="#67e8f9" stroke-width="2"/>
+<text x="154.0" y="269.0">0</text>
+<text x="1089.5" y="231.0">480</text>
+<text x="16" y="330">Resolved shots</text>
+<text x="16" y="349" fill="#64748b">range 0–4</text>
+<path d="M150.00,348.00 H1128.47 V338.50 H1149.10 V310.00 H1160.00 V310.00" fill="none" stroke="#67e8f9" stroke-width="2"/>
+<text x="154.0" y="341.0">0</text>
+<text x="1010" y="399">Time / microseconds</text>
+<text x="24" y="403">State: 4 MATCH, 5 CLEAR, 6 SUPPORT, 7 FALL, 8 ADVANCE, 9 CHECK, 1 AIM</text>
+</svg>

@@ -1,0 +1,19 @@
+sim/tb_engine.vhd:33:21:warning: declaration of "n" hides variable "n" [-Whide]
+    procedure cycle(n : positive := 1) is
+                    ^
+sim/tb_controls.vhd:39:5:@4931ns:(report note): tb_controls PASS: debounce, edge pulses, repeat, reset
+simulation stopped @4931ns
+sim/tb_engine.vhd:72:5:@4971ns:(report note): PASS controls, angle limits, busy gating, restart
+sim/tb_engine.vhd:81:5:@15611ns:(report note): PASS both wall bounces
+sim/tb_engine.vhd:89:5:@30711ns:(report note): PASS ceiling attachment and group of two
+sim/tb_engine.vhd:102:5:@50551ns:(report note): PASS collision attachment, tie break, blocked attachment
+sim/tb_engine.vhd:118:5:@168691ns:(report note): PASS staggered match, falling animation, colour filtering, scoring
+sim/tb_engine.vhd:127:5:@198611ns:(report note): PASS all-clear, fifth-shot win precedence, score saturation, full queue
+sim/tb_engine.vhd:142:5:@230371ns:(report note): PASS ceiling cadence, loss, reset
+sim/tb_engine.vhd:166:5:@3523811ns:(report note): PASS 17 complete trajectories and grid neighbour invariants
+sim/tb_engine.vhd:167:5:@3523811ns:(report note): tb_engine PASS
+simulation stopped @3523811ns
+sim/tb_vga.vhd:34:5:@16800050ns:(report note): tb_vga PASS: full frame, 25 MHz enable, sync widths, blanking, frame tick
+simulation stopped @16800050ns
+sim/tb_render.vhd:41:5:@1228800ns:(report note): tb_render PASS: four frames captured from VHDL renderer
+simulation stopped @1228800ns

@@ -1,0 +1,15 @@
+code,state,work and outputs,next state and condition
+0,TITLE,Show title and instructions; no gameplay,AIM on start; otherwise TITLE
+1,AIM,Show current egg and dotted guide; accept left/right repeat,SHOOT on fire; otherwise AIM
+2,SHOOT,On frame tick move fixed-point projectile and reflect at walls; scan occupied cells,ATTACH on collision or ceiling; otherwise SHOOT
+3,ATTACH,Scan eligible empty cells in row-major order; nearest squared-distance candidate wins,MATCH_SCAN after placement; LOSE if no candidate
+4,MATCH_SCAN,Bounded six-neighbour BFS from attached cell restricted to current colour,CLEAR for group size >=3; ADVANCE otherwise
+5,CLEAR,Clear visited group one cell per cycle; add 10 points per egg,SUPPORT_SCAN after 120 cells
+6,SUPPORT_SCAN,Seed occupied top row; BFS all colours; move unvisited eggs to falling grid and add 20 each,FALL if any disconnected eggs; ADVANCE otherwise
+7,FALL,Move falling grid down 12 pixels per frame; discard fire/aim,FALL until offset >=480; then erase falling grid and ADVANCE
+8,ADVANCE,Scan board; check all-clear before updating shot count and ceiling,WIN if empty; CHECK after shot accounting/descent; LOSE if ceiling range exhausted
+9,CHECK,Scan occupied egg bottoms against danger line; filter current/next colours,LOSE if any egg bottom >=400; AIM otherwise
+10,WIN,Show win overlay and final score; no gameplay,WIN until start/reset
+11,LOSE,Show game-over overlay and final score; no gameplay,LOSE until start/reset
+*,ALL,Highest priority synchronous reset,TITLE while reset is asserted; clear all game data
+*,ALL,Start pulse has priority over normal state work,AIM with initial level and zero score/shots/ceiling
